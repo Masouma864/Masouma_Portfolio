@@ -18,11 +18,11 @@ const projects = [
     },
     screenshot: 'images/works/project.png',
     shortDescription:
-      ' to do list minimalist websites that allows users to create and modify a to do list with CRUD functionality.',
+      ' Todo list minimalist websites that allows users to create and modify a to do list with CRUD functionality.',
     description:
       "In this project, I added some functionality to application to make it interactive. selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage. ",
     skills: ['html', 'css', 'javascript', 'github', 'webpack', 'Ecma Script 6'],
-    liveLink: 'https://github.com/Masouma864/Todo-List-Project',
+    liveLink: 'https://masouma864.github.io/Todo-List-Project',
     sourceLink: 'https://github.com/Masouma864/Todo-List-Project',
   },
   {
@@ -173,12 +173,16 @@ const popUpHtml = projects.map(
     </div>
 
     <div class="popup-project-buttons">
+    <a href="https://masouma864.github.io/Todo-List-Project">
       <button type="button" id="see-live-bt" class="newBtn" onclick="">
         See Live
       </button>
+      </a>
+      <a href="https://github.com/Masouma864/Todo-List-Project">
       <button type="button" id="see-source-btn" class="newBtn" onclick="">
         See Source
       </button>
+      </a>
     </div>
   </div>
 </div>
