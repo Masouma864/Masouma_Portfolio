@@ -10,71 +10,71 @@ mytoggleMenu();
 const projects = [
   {
     id: 1,
-    title: 'Todo List App',
+    title: 'crypto-metric-app',
     info: {
       client: 'Masouma',
-      role: 'Back End Dev',
+      role: 'Front end Dev',
       year: 2022,
     },
-    screenshot: 'images/works/project.png',
+    screenshot: 'images/works/cryptocurrency.jpg',
     shortDescription:
-      ' Todo list minimalist websites that allows users to create and modify a to do list with CRUD functionality.',
+      ' The Cryptocurrency website is built using React, Redux, and CoinStats APIs',
     description:
-      "In this project, I added some functionality to application to make it interactive. selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage. ",
-    skills: ['html', 'css', 'javascript', 'github', 'webpack', 'Ecma Script 6'],
-    liveLink: 'https://masouma864.github.io/Todo-List-Project',
-    sourceLink: 'https://github.com/Masouma864/Todo-List-Project',
+      "In this project, I added some functionality to application to make it interactive.See a list of 100 cryptocurrencies and Check the latest information on the currencies. ",
+    skills: ['API', 'react', 'github', 'webpack', 'redux'],
+    liveLink: 'https://crypto-metric-app.vercel.app/',
+    sourceLink: 'https://github.com/Masouma864/crypto-metric-app',
   },
   {
     id: 2,
-    title: 'Multi-Post Stories',
+    title: 'space-travelers',
     info: {
-      client: 'Facebook',
-      role: 'Full Stack Dev',
-      year: 2015,
+      client: 'Microverse',
+      role: 'Front end Dev',
+      year: 2022,
     },
-    screenshot: 'images/works/image_2.png',
+    screenshot: 'images/works/space-travelers.jpg',
     shortDescription:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+      'An SPA app to view and read about the SpaceX latest rockets and missions form SpaceX API',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release",
-    skills: ['html', 'css', 'Ruby on rails', 'javascript'],
-    liveLink: 'https://www.facebook.com/',
-    sourceLink: 'https://www.facebook.com/',
+      "A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile..",
+    skills: ['html', 'css', 'react', 'redux'],
+    liveLink: 'https://space-travelers-react-project.vercel.app/',
+    sourceLink: 'https://github.com/Masouma864/Space-Travelers-React-Project',
   },
   {
     id: 3,
-    title: 'Facebook 360',
+    title: 'Math-magician',
     info: {
-      client: 'Facebook',
+      client: 'Microverse',
       role: 'Full Stack Dev',
-      year: 2015,
+      year: 2022,
     },
-    screenshot: 'images/works/image_3.png',
+    screenshot: 'images/works/Math-Magician.png',
     shortDescription:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      "A simple and fun website that contains three single page applications. It has welcome page, calculator page, quotes page. this project is built with react.",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release",
+      "In this project, I use react to create a single-page app that contains a working calculator with a random quote",
     skills: ['html', 'css', 'Ruby on rails', 'javascript'],
-    liveLink: 'https://www.facebook.com/',
-    sourceLink: 'https://www.facebook.com/',
+    liveLink: 'https://github.com/Masouma864/Math-magician',
+    sourceLink: 'https://snazzy-phoenix-84d292.netlify.app/m/',
   },
   {
     id: 4,
-    title: 'Uber Navigation',
+    title: 'Loaderboard-App',
     info: {
-      client: 'Uber',
-      role: 'Lead Developer',
-      year: 2018,
+      client: 'Microverse',
+      role: 'Front end Developer',
+      year: 2022,
     },
-    screenshot: 'images/works/image_4.png',
+    screenshot: 'images/works/Loaderboard.jpg',
     shortDescription:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+      'The leaderboard website displays scores submitted by different players. .',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release",
-    skills: ['html', 'css', 'javascript', 'Ruby on rails'],
-    liveLink: 'https://www.uber.com/',
-    sourceLink: 'https://www.uber.com/',
+      "This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leader board list using API endpoint",
+    skills: ['html', 'css', 'javascript', 'API'],
+    liveLink: 'https://masouma864.github.io/Loaderboard-App/',
+    sourceLink: 'https://github.com/Masouma864/Loaderboard-App',
   },
 ];
 const newContent = document.querySelector('.work-container');
@@ -248,7 +248,7 @@ function handleSubmit(e) {
     form.reset();
   } else {
     message.innerText = 'Email in lowercase is required';
-    message.style.display="block";
+    message.style.display = "block";
   }
 }
 form.addEventListener('submit', (e) => {
