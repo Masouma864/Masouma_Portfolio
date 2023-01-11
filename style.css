@@ -119,7 +119,7 @@ h2 {
   margin: 15px auto 0;
 }
 
-.image-container > img {
+.image-container>img {
   width: 100%;
 }
 
@@ -193,12 +193,12 @@ h2 {
 
 .btn-sm {
   background-color: #ebebff;
-  width: 53px;
+  width: 75px;
   text-align: center;
   height: 24px;
   border-radius: 8px;
   border: none;
-  color: #b7bcff;
+  color: #141522;
   padding: 4px 12px 4px 12px;
   transition: 0.2s;
   margin-bottom: 20px;
@@ -222,12 +222,12 @@ h2 {
 
 .btn-md {
   background-color: #ebebff;
-  width: 45px;
+  width: 55px;
   text-align: center;
   height: 24px;
   border-radius: 8px;
   border: none;
-  color: #b7bcff;
+  color: #1d1f33;
   padding: 4px 12px;
   transition: 0.2s;
   margin-bottom: 20px;
@@ -240,7 +240,7 @@ h2 {
   height: 25px;
   border-radius: 5px;
   border: none;
-  color: #b7bcff;
+  color: #0f0f1b;
   transition: 0.2s;
   margin-bottom: 20px;
 }
@@ -316,7 +316,7 @@ h2 {
   padding: 8px;
 }
 
-.tech-title > h3 {
+.tech-title>h3 {
   font-size: 20px;
   font-weight: 500;
   margin: 10px 0;
@@ -342,11 +342,11 @@ h2 {
   color: white;
 }
 
-.tech-content > ul {
+.tech-content>ul {
   padding: 0 8px;
 }
 
-.tech-content > ul > li {
+.tech-content>ul>li {
   background-color: #f7f7f9;
   border-radius: 8px;
   padding: 9px 12px;
@@ -355,7 +355,7 @@ h2 {
   list-style: none;
 }
 
-.tech-content > ul > li > img {
+.tech-content>ul>li>img {
   width: 48px;
   height: 48px;
 }
@@ -527,6 +527,12 @@ h2 {
 .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+.nav-link-desktop {
+  text-decoration: none;
+  color: #2230d2;
+  font-weight: bold;
 }
 
 .hide {
@@ -868,7 +874,7 @@ h2 {
 
   /* Languages section */
 
-  .tech-content > ul > li {
+  .tech-content>ul>li {
     list-style: none;
     background-color: #f7f7f9;
     border-radius: 8px;

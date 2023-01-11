@@ -33,7 +33,7 @@ const projects = [
       role: 'Front end Dev',
       year: 2022,
     },
-    screenshot: 'images/works/space-travelers.jpg',
+    screenshot: 'images/works/space-traveler.png',
     shortDescription:
       'An SPA app to view and read about the SpaceX latest rockets and missions form SpaceX API',
     description:
@@ -50,7 +50,7 @@ const projects = [
       role: 'Full Stack Dev',
       year: 2022,
     },
-    screenshot: 'images/works/Math-Magician.png',
+    screenshot: 'images/works/Math-Magician.jpg',
     shortDescription:
       "A simple and fun website that contains three single page applications. It has welcome page, calculator page, quotes page. this project is built with react.",
     description:
@@ -69,9 +69,9 @@ const projects = [
     },
     screenshot: 'images/works/Loaderboard.jpg',
     shortDescription:
-      'The leaderboard website displays scores submitted by different players. .',
+      'The leaderboard website displays scores submitted by different players.',
     description:
-      "This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leader board list using API endpoint",
+      "This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leader board list using API endpoint.",
     skills: ['html', 'css', 'javascript', 'API'],
     liveLink: 'https://masouma864.github.io/Loaderboard-App/',
     sourceLink: 'https://github.com/Masouma864/Loaderboard-App',
