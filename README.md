@@ -1,31 +1,40 @@
-# Project Name:
+# Personal Portfolio
+ My personal portfolio website project
 
-# Portfolio popup window(using javascript)  set to  Project
+# Built With
+  - HTML
+  - CSS
+  - JavaScript
 
->
+# Live Preview
 
-## Built With
 
-- Languages Used: Html, CSS
-- Code Editor: Visual Studio Code
-- Concepts Used: Flexbox, Grid system
-- Tools Used: Linters
-- VCS: Git
-- Package Manager: Node, NPM
 
-## Project Description
+# Prerequisites
+   - Please install git and the code editor of your choice on your computer.
+   
+# Setup
+   - To clone my repository run this command `git clone https://github.com/Masouma864/Masouma_Portfolio.gits`  
 
-- To use basic JavaScript syntax.
 
-- To manipulate DOM elements.
+# Author
 
-- To use JavaScript events.
-[
-👤 Author:
-Masouma (Hasina) Modarresi
+👤 **Emre Karayaman**
 
-- GitHub: [@Masouma864]
+- GitHub: [@Masouma](https://github.com/Masouma864/)
+- Twitter: [@Masouma](https://twitter.com/MasoumaModarres?)
+- LinkedIn: [Masouma](https://www.linkedin.com/in/masouma-modarresi/)
 
-- LinkedIn: [masouma-m]
+# Contributing
 
- [Live Demo of Portfolio](https://masouma864.github.io/Updated-Portfolio/)
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+# Show your support
+
+Give a ⭐️ if you like this project!
+
+# License
+
+This project is [MIT](./LICENSE.md) licensed.
