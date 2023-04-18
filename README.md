@@ -8,7 +8,7 @@
 
 # Live Preview
 
-(https://spiffy-valkyrie-3c8b83.netlify.app/)
+[Live Preview](https://stalwart-monstera-f633cd.netlify.app/)
 
 # Prerequisites
    - Please install git and the code editor of your choice on your computer.
