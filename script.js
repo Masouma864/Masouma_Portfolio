@@ -44,37 +44,37 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Math-magician',
+    title: 'Book Store App',
     info: {
       client: 'Microverse',
       role: 'Full Stack Dev',
       year: 2022,
     },
-    screenshot: 'images/works/Math-Magician.jpg',
+    screenshot: 'images/works/bookstore.PNG',
     shortDescription:
-      "A simple and fun website that contains three single page applications. It has welcome page, calculator page, quotes page. this project is built with react.",
+      "Single Page Application that display Books and allows users to Add, Remove and Edit these books.",
     description:
-      "In this project, I use react to create a single-page app that contains a working calculator with a random quote",
-    skills: ['html', 'css', 'Ruby on rails', 'javascript'],
-    liveLink: 'https://github.com/Masouma864/Math-magician',
-    sourceLink: 'https://snazzy-phoenix-84d292.netlify.app/m/',
+      "This is an app created with React and Redux that enables you to showcase a catalog of books that you have added, add new titles to the list, and delete existing ones. It's essentially a virtual bookstore where you can manage your collection of books.",
+    skills: ['Javascript', 'React', 'Redux', 'Css', 'HTML'],
+    liveLink: 'https://nimble-sherbet-ce8220.netlify.app/',
+    sourceLink: 'https://github.com/Masouma864/React-BookStore',
   },
   {
     id: 4,
-    title: 'Loaderboard-App',
+    title: 'Capstone-Project',
     info: {
       client: 'Microverse',
       role: 'Front end Developer',
       year: 2022,
     },
-    screenshot: 'images/works/Loaderboard.jpg',
+    screenshot: 'images/works/Capstone-Project.png',
     shortDescription:
-      'The leaderboard website displays scores submitted by different players.',
+      'The Immigration-Agencies app provides a range of online services and finding immigration information.',
     description:
-      "This is a Webpack Leaderboard project based on REST API. With this app, you can add players score to the board and get the scores on the leader board list using API endpoint.",
-    skills: ['html', 'css', 'javascript', 'API'],
-    liveLink: 'https://masouma864.github.io/Loaderboard-App/',
-    sourceLink: 'https://github.com/Masouma864/Loaderboard-App',
+      "Module One Capstone Project. The Immigration-Agencies is a Website for Immigration. In this project, the featured section is implemented dynamically with JavaScript. This project is built with the following technologies: HTML5, CSS, and JavaScript.",
+    skills: ['Html', 'Css', 'Javascript'],
+    liveLink: 'keen-salmiakki-b96e72.netlify.app//',
+    sourceLink: 'https://github.com/Masouma864/Capstone-Project',
   },
 ];
 const newContent = document.querySelector('.work-container');

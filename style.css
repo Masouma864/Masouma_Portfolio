@@ -183,8 +183,6 @@ h2 {
 
 .btn-container-flex {
   display: flex;
-  margin-left: -10px;
-  row-gap: 5px;
 }
 
 .btn {
@@ -501,9 +499,7 @@ h2 {
 
 .menu-icon {
   /* display: none; */
-  position: absolute;
-  top: 3.1rem;
-  right: 1rem;
+  margin: 20px;
   cursor: pointer;
 }
 
