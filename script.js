@@ -21,7 +21,7 @@ const projects = [
       ' The Cryptocurrency website is built using React, Redux, and CoinStats APIs',
     description:
       "In this project, I added some functionality to application to make it interactive.See a list of 100 cryptocurrencies and Check the latest information on the currencies. ",
-    skills: ['API', 'react', 'github', 'webpack', 'redux'],
+    skills: ['API', 'React', 'GitHub', 'Webpack', 'Redux'],
     liveLink: 'https://crypto-metric-app.vercel.app/',
     sourceLink: 'https://github.com/Masouma864/crypto-metric-app',
   },
@@ -38,7 +38,7 @@ const projects = [
       'An SPA app to view and read about the SpaceX latest rockets and missions form SpaceX API',
     description:
       "A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile..",
-    skills: ['html', 'css', 'react', 'redux'],
+    skills: ['Html', 'Css', 'React', 'Redux'],
     liveLink: 'https://space-travelers-react-project.vercel.app/',
     sourceLink: 'https://github.com/Masouma864/Space-Travelers-React-Project',
   },
@@ -73,7 +73,7 @@ const projects = [
     description:
       "Module One Capstone Project. The Immigration-Agencies is a Website for Immigration. In this project, the featured section is implemented dynamically with JavaScript. This project is built with the following technologies: HTML5, CSS, and JavaScript.",
     skills: ['Html', 'Css', 'Javascript'],
-    liveLink: 'keen-salmiakki-b96e72.netlify.app//',
+    liveLink: 'https://keen-salmiakki-b96e72.netlify.app/',
     sourceLink: 'https://github.com/Masouma864/Capstone-Project',
   },
 ];
@@ -171,16 +171,15 @@ const popUpHtml = projects.map(
         </li>
       </ul>
     </div>
-
     <div class="popup-project-buttons">
-    <a href="https://masouma864.github.io/Todo-List-Project">
+    <a href="https://crypto-metric-app.vercel.app/">
       <button type="button" id="see-live-bt" class="newBtn" onclick="">
-        See Live
+       <a href="${project.liveLink}"> See Live</a>
       </button>
       </a>
-      <a href="https://github.com/Masouma864/Todo-List-Project">
+      <a href="https://github.com/Masouma864/crypto-metric-app">
       <button type="button" id="see-source-btn" class="newBtn" onclick="">
-        See Source
+       <a href="${project.sourceLink}">  See Source</a>
       </button>
       </a>
     </div>

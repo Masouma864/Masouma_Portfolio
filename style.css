@@ -16,6 +16,9 @@ body {
 }
 
 /* Header Section */
+a {
+  text-decoration: none;
+}
 
 header {
   display: flex;
@@ -397,7 +400,7 @@ h2 {
 
 .contact-me-container {
   margin: 0 auto;
-  min-width: 350px;
+
   width: 50%;
   align-items: center;
   display: flex;
@@ -410,6 +413,7 @@ h2 {
 .form {
   display: flex;
   flex-direction: column;
+
 }
 
 .error {
@@ -556,7 +560,7 @@ h2 {
   height: auto;
   padding: 16px;
   border-radius: 16px;
-  margin-left: 18%;
+  margin-left: 10%;
   width: 70%;
 }
 
@@ -617,7 +621,8 @@ h2 {
 }
 
 .column-right {
-  width: 40%;
+  width: 90%;
+  margin-left: 10px;
 }
 
 .popup-project-stack {
