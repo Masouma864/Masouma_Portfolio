@@ -20,6 +20,26 @@ a {
   text-decoration: none;
 }
 
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(50px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+h2 {
+  animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -386,9 +406,8 @@ h2 {
 .tech-content>ul>li {
   background-color: #f7f7f9;
   border-radius: 8px;
-  padding: 9px 12px;
-  margin: 12px 20px;
-  column-gap: 16px;
+  margin: 12px;
+  /* column-gap: 16px; */
   list-style: none;
 }
 
@@ -705,11 +724,11 @@ h2 {
 
   }
 
+
   #about {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     gap: 20px;
     width: 94%;
     margin: 0 auto;
