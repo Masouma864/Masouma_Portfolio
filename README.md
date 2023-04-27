@@ -23,7 +23,7 @@
 
 - GitHub: [@Masouma](https://github.com/Masouma864/)
 - Twitter: [@Masouma](https://twitter.com/MasoumaModarres?)
-- LinkedIn: [Masouma](https://www.linkedin.com/in/masouma-modarresi/)
+- LinkedIn: [@Masouma](https://www.linkedin.com/in/masouma-modarresi/)
 
 # Contributing
 
