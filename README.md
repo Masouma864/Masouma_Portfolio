@@ -8,7 +8,7 @@
 
 # Live Preview
 
-[Live Preview](https://jolly-cucurucho-f55199.netlify.app/)
+[Live Preview](https://vercel.com/masouma864/masouma-portfolio)
 
 # Prerequisites
    - Please install git and the code editor of your choice on your computer.
