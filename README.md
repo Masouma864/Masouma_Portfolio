@@ -8,7 +8,7 @@
 
 # Live Preview
 
-[Live Preview](https://vercel.com/masouma864/masouma-portfolio)
+[Live Preview](https://masoumaportfolio.vercel.app/)
 
 # Prerequisites
    - Please install git and the code editor of your choice on your computer.
