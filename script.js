@@ -61,20 +61,20 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Capstone-Project',
+    title: 'ImmigrationAgency-Js',
     info: {
       client: 'Microverse',
       role: 'Front end Developer',
       year: 2022,
     },
-    screenshot: 'images/works/Capstone-Project.png',
+    screenshot: 'images/works/Immigration.png',
     shortDescription:
       'The Immigration-Agencies app provides a range of online services and finding immigration information.',
     description:
       "Module One Capstone Project. The Immigration-Agencies is a Website for Immigration. In this project, the featured section is implemented dynamically with JavaScript. This project is built with the following technologies: HTML5, CSS, and JavaScript.",
     skills: ['Html', 'Css', 'Javascript'],
-    liveLink: 'https://keen-salmiakki-b96e72.netlify.app/',
-    sourceLink: 'https://github.com/Masouma864/Capstone-Project',
+    liveLink: 'immigration-agency.vercel.app/',
+    sourceLink: 'https://github.com/Masouma864/ImmigrationAgency-Js',
   },
 ];
 const newContent = document.querySelector('.work-container');
