@@ -8,7 +8,7 @@
 
 # Live Preview
 
-[Live Preview](https://jolly-cucurucho-f55199.netlify.app/)
+[Live Preview](https://masoumaportfolio.vercel.app/)
 
 # Prerequisites
    - Please install git and the code editor of your choice on your computer.
@@ -23,7 +23,7 @@
 
 - GitHub: [@Masouma](https://github.com/Masouma864/)
 - Twitter: [@Masouma](https://twitter.com/MasoumaModarres?)
-- LinkedIn: [Masouma](https://www.linkedin.com/in/masouma-modarresi/)
+- LinkedIn: [@Masouma](https://www.linkedin.com/in/masouma-modarresi/)
 
 # Contributing
 
