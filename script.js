@@ -10,7 +10,7 @@ mytoggleMenu();
 const projects = [
   {
     id: 1,
-    title: 'crypto-metric-app',
+    title: 'Crypto-metric-app',
     info: {
       client: 'Masouma',
       role: 'Front end Dev',
@@ -27,13 +27,13 @@ const projects = [
   },
   {
     id: 2,
-    title: 'space-travelers',
+    title: 'Space-travelers',
     info: {
       client: 'Microverse',
       role: 'Front end Dev',
       year: 2022,
     },
-    screenshot: 'images/works/space-traveler.png',
+    screenshot: 'images/works/space-traveler.PNG',
     shortDescription:
       'An SPA app to view and read about the SpaceX latest rockets and missions form SpaceX API',
     description:
@@ -61,20 +61,20 @@ const projects = [
   },
   {
     id: 4,
-    title: 'ImmigrationAgency-Js',
+    title: 'TeamWork',
     info: {
       client: 'Microverse',
       role: 'Front end Developer',
       year: 2022,
     },
-    screenshot: 'images/works/Immigration.png',
+    screenshot: 'images/works/teamwork.PNG',
     shortDescription:
-      'The Immigration-Agencies app provides a range of online services and finding immigration information.',
+      'The Team-Work app provides a range of  services and information.',
     description:
-      "Module One Capstone Project. The Immigration-Agencies is a Website for Immigration. In this project, the featured section is implemented dynamically with JavaScript. This project is built with the following technologies: HTML5, CSS, and JavaScript.",
-    skills: ['Html', 'Css', 'Javascript'],
-    liveLink: 'immigration-agency.vercel.app/',
-    sourceLink: 'https://github.com/Masouma864/ImmigrationAgency-Js',
+      "A web application using JavaScript, jQuery, and Bootstrap, where users can order their projects to be tailored by the admin and also view sample works.",
+    skills: ['Javascript', 'Bootstrap', 'jQuery'],
+    liveLink: 'https://team-work-three.vercel.app/',
+    sourceLink: 'https://github.com/Masouma864/TeamWork',
   },
 ];
 const newContent = document.querySelector('.work-container');
