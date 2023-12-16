@@ -121,6 +121,14 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
+.about-media-icons {
+  
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .hero-container a {
   color:blue;
   text-decoration: underline;
@@ -537,6 +545,7 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding-top: 10px;
   list-style-type: none;
 }
 
