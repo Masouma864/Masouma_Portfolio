@@ -8,8 +8,26 @@ mytoggleMenu();
 //popup window
 // create array
 const projects = [
+ 
   {
     id: 1,
+    title: 'Altaqwa Academy',
+    info: {
+      client: 'Altaqwa Academy',
+      role: 'Full stack Dev',
+      year: 2023,
+    },
+    screenshot: 'images/works/Altaqwa.PNG',
+    shortDescription:
+      'A comprehensive Laravel-based platform designed to serve the needs of a university. Empowered by Laravels robust backend framework, the website offers seamless navigation, user-friendly interfaces, and personalized experiences for students, faculty, and administrators.',
+    description:
+      "Our university website project aimed to revolutionize the digital presence of the institution. Leveraging the power of Laravel, we developed a scalable and intuitive platform that caters to the diverse needs of students, faculty, and administrators. The website offers a range of features, including user authentication, course registration, grade tracking, event management, and more. With a clean and modern design, the user interface ensures easy navigation and accessibility across different devices. Our team meticulously implemented Laravel's MVC architecture, enabling efficient code organization and modular development. We integrated various Laravel packages, such as Eloquent ORM for database management, Blade templating engine for dynamic content rendering, and Laravel Mix for asset compilation. The result is a secure, high-performance website that streamlines university operations and enhances the overall user experience",
+    skills: ['Bootstrap', 'Laravel', "Jquery", 'Javascript', 'Css', 'HTML'],
+    liveLink: 'https://altaqwa.edu.af/',
+    sourceLink: '',
+  },
+  {
+    id: 2,
     title: 'Crypto-metric-app',
     info: {
       client: 'Masouma',
@@ -24,23 +42,6 @@ const projects = [
     skills: ['API', 'React', 'GitHub', 'Webpack', 'Redux'],
     liveLink: 'https://crypto-metric-app.vercel.app/',
     sourceLink: 'https://github.com/Masouma864/crypto-metric-app',
-  },
-  {
-    id: 2,
-    title: 'Space-travelers',
-    info: {
-      client: 'Microverse',
-      role: 'Front end Dev',
-      year: 2022,
-    },
-    screenshot: 'images/works/space-traveler.PNG',
-    shortDescription:
-      'An SPA app to view and read about the SpaceX latest rockets and missions form SpaceX API',
-    description:
-      "A website that uses a real live api from space x and displays it, You are able to Reserve a rocket and you will have it on your profile page aslo join missions which you will be able to see it on your profile..",
-    skills: ['Html', 'Css', 'React', 'Redux'],
-    liveLink: 'https://space-travelers-react-project.vercel.app/',
-    sourceLink: 'https://github.com/Masouma864/Space-Travelers-React-Project',
   },
   {
     id: 3,

@@ -16,12 +16,12 @@
 
 <body>
   <header>
-    <div class="logo-container"><a class="logo" href="#">My portfolio</a></div>
+    <div class="logo-container"><a class="logo" href="#">Masouma Modarresi</a></div>
 
     <nav class="navbar">
-      <img class="menu-icon" onclick="mytoggleMenu()" src="images/icons/Union.svg" alt="" />
+      <img class="menu-icon1" onclick="mytoggleMenu()" src="images/icons/Union.svg" alt="" />
       <div id="overlay" class="mobileOverlay">
-        <img class="menu-icon" onclick="mytoggleMenu()" src="images/icons/Cancel.svg" alt="" />
+        <img class="menu-icon2" onclick="mytoggleMenu()" src="images/icons/Cancel.svg" alt="" />
         <ul id="main-menu" class="nav-menu flex">
           <li id="nav-item" class="nav-item">
             <a class="nav-link" onclick="mytoggleMenu()" href="#portfolio">Portfolio</a>
@@ -46,11 +46,20 @@
 
   <section class="hero">
     <div class="hero-container">
-      <h2>Masouma Modarresi<br />front-end Developer</h2>
-      <p class="hero-paragraph">
-        I can help you build a product, feature or website. Look through some of my work and experience! If you like
-        what you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
+      <div class="intro">
+
+        <div>
+          <h1>Welcome to my portfolio!</h1>
+        </div>
+        <h2>Masouma Modarresi</h2>
+        <h3>Full Stack Developer</h3>
+      </div>
+
+
+      <p>I specialize in crafting extraordinary products, features, and websites that captivate and engage users.</p>
+      <p>With a keen eye for design and a passion for innovation, I can help bring your ideas to life. Take a moment to browse through my portfolio and explore the projects I've worked on, as well as my extensive experience in the field.</p>
+      <p>I'm here to help with your coding project. If you resonate with my work, don't hesitate to reach out. Let's collaborate to create something exceptional.</p>
+      <p>Let's turn your vision into reality. <a href="#contact">Contact me</a> today!</p>
 
       <span class="hero-subheading">LETS CONNECT</span>
 
@@ -93,13 +102,13 @@
     <div class="about">
       <h1 class="about-myself-title">About Myself</h1>
       <p class="about-myself-desc">
-        Welcome to my front-end developer portfolio! My name is Masouma, and I am a skilled front-end developer with 3
-        years of experience in creating visually appealing and user-friendly websites and applications.With this
-        portfolio,I aim to showcase my skills, past projects, and experience with front-end development.My goal is to
-        work with a team of like-minded individuals to create innovative and efficient solutions that meet the needs of
-        clients and users. I am excited to share my best work with you and demonstrate my skills and experience as a
-        front-end developer.
-
+        Welcome to my full stack developer portfolio! My name is Masouma, and I am a skilled software developer with 3 years of experience in creating visually appealing and user-friendly websites and applications.
+      </p>
+      <p class="about-myself-desc">
+        With this portfolio, I aim to showcase my skills, past projects, and experience with full stack development. My goal is to work with a team of like-minded individuals to create innovative and efficient solutions that meet the needs of clients and users.
+      </p>
+      <p class="about-myself-desc">
+        I am excited to share my best work with you and demonstrate my skills and experience as a front-end developer.
       </p>
       <div class="about-media-icons">
         <h4 class="about-subheading">Lets Connect</h4>
@@ -127,7 +136,7 @@
         </ul>
         <div class="btn-container">
           <button type="submit" class="btn gmr-btn"><a
-              href="https://drive.google.com/file/d/1S6B_8KNP3VLDDHHaNwXobsosuYgjwS2q/view?usp=sharing">Get my
+              href="https://docs.google.com/document/d/1Y52jRDYzb4XD9FXIq0vS5LLlcZSkanvnj94IMKYEYtU/edit?usp=sharing">Get my
               resume</a></button>
         </div>
       </div>
@@ -186,28 +195,24 @@
   <!--About Section ends Here-->
 
   <!--Contact Section Starts Here-->
-  <section id="contact" class="contact-form-sec">
-    <div class="contact-me-container">
-      <h1 class="contact-me">Contact me</h1>
-      <p class="contact-paragraph">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I’d love to help
-        with it
-      </p>
-      <form id="form" class="form" action="https://formspree.io/f/mlezyvyo" method="post">
-        <input name="fullname" id="fullname" type="text" class="form_input" required maxlength="30"
-          placeholder="Ener your first name" />
+<section id="contact" class="contact-form-sec">
+  <div class="contact-me-container">
+    <h1 class="contact-me">Contact Me</h1>
+    <p class="contact-paragraph">
+      If you have an application you are interested in developing, a feature that you need built, or a project that needs coding, I'd love to help with it.
+    </p>
+    <form id="form" class="form" action="https://formspree.io/f/mlezyvyo" method="post">
+      <input name="fullname" id="fullname" type="text" class="form_input" required maxlength="30" placeholder="Enter your full name" />
 
-        <input type="email" id="email" class="form_input" required placeholder="Enter your email" />
-        <small class="error-mesg"></small>
+      <input type="email" id="email" class="form_input" required placeholder="Enter your email" />
+      <small class="error-mesg"></small>
 
-        <textarea class="form_input" rows="5" maxlength="500" required placeholder="Enter your message" cols="40"
-          name="message" id="message"></textarea>
+      <textarea class="form_input" rows="5" maxlength="500" required placeholder="Enter your message" cols="40" name="message" id="message"></textarea>
 
-        <button class="btn-submit" type="submit">Send</button>
-      </form>
-    </div>
-  </section>
+      <button class="btn-submit" type="submit">Send</button>
+    </form>
+  </div>
+</section>
 
   <!--Modal Starts Here-->
   <div class="popup-window" id="popup">
